@@ -1,29 +1,28 @@
-title: "My First Article"
+title: "Mining Concurrent Topical Activity in Microblog Streams"
 doi: # e.g. 10.1234/example.1
 date: "2015-03-15T12:00:00" # e.g. 2015-03-02
 authors:
   - id: "https://orcid.org/00000000-0000-0000-000001"
-    name: "First Author"
-    email: "first.author@example.com"
+    name: "André Panisson"
+    email: "andre.panisson@isi.it"
     url: http://example.com/authors/1
     affiliations:
-      - address: "Department, Institution, City, State, Country"
-    funders:
-        - name: "Medical Research Council"
-          doi: "10.13039/501100000265"
-          awards: [ "MRC123", "MRC456" ]
+      - address: "Data Science Laboratory, ISI Foundation, Torino, Italy"
   - id: "https://orcid.org/00000000-0000-0000-000002"
-    name: "Second Author"
-    email: "second.author@example.com"
+    name: "Laetitia Gauvin"
+    email: "laetitia.gauvin@isi.it"
     affiliations:
-      - address: "Department, Institution, City, State, Country"
-        url: http://mathematics.stanford.edu/
-      - address: "Department, Institution, City, State, Country"
-    funders:
-      - name: "National Institutes of Health"
-        url: http://www.nih.gov/
-        doi: "10.13039/100000002"
-        awards: [ "NIH123" ]
+      - address: "Data Science Laboratory, ISI Foundation, Torino, Italy"
+  - id: "https://orcid.org/00000000-0000-0000-000003"
+    name: "Marco Quaggiotto"
+    email: "marco.quaggiotto@isi.it"
+    affiliations:
+      - address: "Data Science Laboratory, ISI Foundation, Torino, Italy"
+  - id: "https://orcid.org/00000000-0000-0000-000004"
+    name: "Ciro Cattuto"
+    email: "ciro.cattuto@isi.it"
+    affiliations:
+      - address: "Data Science Laboratory, ISI Foundation, Torino, Italy"
 contributions: # http://dictionary.casrai.org/Contributor_Roles
   - name: "Methodology"
     url: http://dictionary.casrai.org/Contributor_Roles/Methodology

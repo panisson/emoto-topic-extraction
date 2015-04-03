@@ -1,91 +1,47 @@
-# Note: to avoid repeating the same data multiple times,
-# identifiers (starting with "&") are referenced later (starting with "*")
-
-title: "My First Article"
-date: 2015-03-15T12:00:00Z
-doi: # e.g. 10.1234/example.1
+title: "Mining Concurrent Topical Activity in Microblog Streams"
+date: 2015-04-03T12:00:00Z
 
 organizations: # defined here, used in "affiliations" and "grants" below
-  - &stanford
-      name: "Stanford University"
-      address: "Department, Institution, City, State, Country"
-      url: http://mathematics.stanford.edu/
-
-  - &harvard
-      name: "Harvard University"
-      address: "Department, Institution, City, State, Country"
-
-  - &mrc
-      name: "Medical Research Council"
-      sameAs: "http://dx.doi.org/10.13039/501100000265"
-
-  - &nih
-      name: "National Institutes of Health"
-      url: http://www.nih.gov/
-      sameAs: "http://dx.doi.org/10.13039/100000002"
+  - &isi
+      name: "ISI Foundation"
+      address: "Data Science Laboratory, ISI Foundation, Torino, Italy"
+      url: http://www.isi.it
 
 authors:
-  - &alice-jones
-      name: "Alice Jones"
-      email: "alice.jones@example.com"
-      url: http://example.com/authors/1
-      sameAs: "https://orcid.org/00000000-0000-0000-000001"
-      affiliations:
-        - *stanford
-        - *harvard
+  - &panisson
+    name: "André Panisson"
+    email: "andre.panisson@isi.it"
+    url: http://andre.panisson.com/
+    sameAs: "https://orcid.org/00000000-0000-0000-000001"
+    affiliations:
+      - *isi
 
-  - &bob-smith
-      name: "Bob Smith"
-      email: "bob.smith@example.com"
-      sameAs: "https://orcid.org/00000000-0000-0000-000002"
-      affiliations:
-        - *stanford
+  - &gauvin
+    name: "Laetitia Gauvin"
+    email: "laetitia.gauvin@isi.it"
+    sameAs: "https://orcid.org/00000000-0000-0000-000002"
+    affiliations:
+      - *isi
 
-grants:
-  - &mrc123
-    name: MRC123
-    agent: *mrc
-    recipients:
-      - *alice-jones
-      - *bob-smith
+  - &quaggiotto
+    name: "Marco Quaggiotto"
+    email: "marco.quaggiotto@isi.it"
+    sameAs: "https://orcid.org/00000000-0000-0000-000003"
+    affiliations:
+      - *isi
 
-  - &mrc456
-    name: MRC456
-    agent: *mrc
-    recipients:
-      - *alice-jones
-      - *bob-smith
-
-  - &nih123
-    name: NIH123
-    agent: *nih
-    recipients:
-      - *alice-jones
+  - &cattuto
+    name: "Ciro Cattuto"
+    email: "ciro.cattuto@isi.it"
+    sameAs: "https://orcid.org/00000000-0000-0000-000004"
+    affiliations:
+      - *isi
 
 contributions:
-  - name: "Methodology"
-    url: http://dictionary.casrai.org/Contributor_Roles/Methodology
-    contributors:
-      - *alice-jones
-      - *bob-smith
-
-  - name: "Investigation"
-    url: http://dictionary.casrai.org/Contributor_Roles/Investigation
-    contributors:
-      - *alice-jones
-      - *bob-smith
-
-  - name: "Software"
-    url: http://dictionary.casrai.org/Contributor_Roles/Software
-    contributors:
-      - *bob-smith
-
-  - name: "Writing - original draft"
+  - name: "Writing"
     url: http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft
     contributors:
-      - *alice-jones
-
-  - name: "Writing - review & editing"
-    url: http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing
-    contributors:
-      - *bob-smith
+      - *panisson
+      - *gauvin
+      - *quaggiotto
+      - *cattuto

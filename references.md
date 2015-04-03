@@ -29,13 +29,13 @@ Intl. Conf. on Web Search and Data Mining (WSDM), pages
 * [9](#harshman1970fpp) R. A. Harshman. Foundations of the PARAFAC procedure: Models
 and conditions for an" explanatory" multi-modal factor analysis.
 UCLA Working Papers in Phonetics, 16(1):84, 1970.
-* [10](#) P. Hoyer. Non-negative matrix factorization with sparseness
+* [10](#hoyer2004non) P. Hoyer. Non-negative matrix factorization with sparseness
 constraints. The Journal of Machine Learning Research,
 5:1457–1469, 2004.
 * [11](#jansen09) B. J. Jansen, M. Zhang, K. Sobel, and A. Chowdury. Twitter power:
 Tweets as electronic word of mouth. Journal of the American Society
 for Information Science & Technology, 60(11), 2009.
-* [12](#) J. Kim and H. Park. Fast nonnegative tensor factorization with an
+* [12](#Park-NTF) J. Kim and H. Park. Fast nonnegative tensor factorization with an
 active-set-like method. In M. W. Berry, K. A. Gallivan,
 E. Gallopoulos, A. Grama, B. Philippe, Y. Saad, and F. Saied, editors,
 High-Performance Scientific Computing, pages 311–326. Springer
@@ -54,7 +54,7 @@ USA, 2012. ACM.
 * [17](#leskovec09) J. Leskovec, L. Backstrom, and J. Kleinberg. Meme-tracking and the
 dynamics of the news cycle. In Proc. of the 15th ACM SIGKDD intl.
 conf. on Knowledge discovery and data mining, page 497, 2009.
-* [18](#) C. Lin. Projected gradient methods for nonnegative matrix
+* [18](#lin2007projected) C. Lin. Projected gradient methods for nonnegative matrix
 factorization. Neural computation, 19(10):2756–2779, 2007.
 * [19](#mocanu2012twitter) D. Mocanu, A. Baronchelli, N. Perra, B. Gonçalves, Q. Zhang, and
 A. Vespignani. The twitter of babel: Mapping world languages
@@ -62,13 +62,13 @@ through microblogging platforms. PloS one, 8(4):e61981, 2013.
 * [20](#naaman11) M. Naaman, H. Becker, and L. Gravano. Hip and trendy:
 Characterizing emerging trends on twitter. J. Am. Soc. Inf. Sci.,
 62:902–918, 2011.
-* [21](#) P. Paatero and U. Tapper. Positive matrix factorization: A
+* [21](#Paatero) P. Paatero and U. Tapper. Positive matrix factorization: A
 non-negative factor model with optimal utilization of error estimates
 of data values. Environmetrics, 5(2):111–126, 1994.
 * [22](#ratkiewicz10b) J. Ratkiewicz, F. Menczer, S. Fortunato, A. Flammini, and
 A. Vespignani. Traffic in social media ii: Modeling bursty popularity.
 In SocialCom 2010: SIN, 2010.
-* [23](#) J.-P. Royer, N. Thirion-Moreau, and P. Comon. NonNegative 3-Way
+* [23](#royer:hal-00725289) J.-P. Royer, N. Thirion-Moreau, and P. Comon. NonNegative 3-Way
 tensor Factorzation taking into account Possible Missing Data. In
 Eurasip, editor, EUSIPCO-2012, pages 1–5, Bucarest, Roumanie,
 Aug. 2012. Elsevier.
@@ -84,7 +84,7 @@ York, NY, USA, 2010. ACM.
 applications to statistics and computer vision. In Proc. of the 22nd
 intl. conf. on Machine learning, ICML ’05, pages 792–799, New
 York, NY, USA, 2005. ACM.
-* [27](#) R. R. Sokal and C. D. Michener. A statistical method for evaluating
+* [27](#Sokal1958) R. R. Sokal and C. D. Michener. A statistical method for evaluating
 systematic relationships. University of Kansas Scientific Bulletin,
 28:1409–1438, 1958.
 * [28](#Beyondstreams) J. Sun, D. Tao, and C. Faloutsos. Beyond streams and graphs:
